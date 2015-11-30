@@ -5,3 +5,7 @@ PROJECT_DIR=$HOME/.dev
 
 ln -s $PROJECT_DIR/vim/.vimrc ~/.
 ln -s $PROJECT_DIR/vim/.vim ~/.vim
+
+# Load in pathogen vim modules
+git submodule init
+git submodule update
