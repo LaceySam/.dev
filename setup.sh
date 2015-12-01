@@ -1,10 +1,13 @@
 # The project should be set up in the home directory
+DEV_DIR=$HOME/.dev
+
+# Set up bash symbolic links
+ln -s $DEV_DIR/bash/.profile $HOME/.
+ln -s $DEV_DIR/bash/.bash_aliases $HOME/.
+
 # Setup vim symbolic links
-
-PROJECT_DIR=$HOME/.dev
-
-ln -s $PROJECT_DIR/vim/.vimrc ~/.
-ln -s $PROJECT_DIR/vim/.vim ~/.vim
+ln -s $DEV_DIR/vim/.vimrc $HOME/.
+ln -s $DEV_DIR/vim/.vim $HOME/.vim
 
 # Load in pathogen vim modules
 git submodule init
