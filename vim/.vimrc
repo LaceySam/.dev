@@ -23,3 +23,6 @@ let NERDTreeWinSize=26
 let NERDTreeShowHidden=1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+
+let NERDTreeIgnore = ['\.swp$']
+let NERDTreeIgnore = ['\.pyc$']
