@@ -1,10 +1,6 @@
 # The project should be set up in the home directory
 DEV_DIR=$HOME/.dev
 
-# Set up bash symbolic links
-ln -s $DEV_DIR/bash/.profile $HOME/.
-ln -s $DEV_DIR/bash/.bash_aliases $HOME/.
-
 # Setup vim symbolic links
 ln -s $DEV_DIR/vim/.vimrc $HOME/.
 ln -s $DEV_DIR/vim/.vim $HOME/.vim

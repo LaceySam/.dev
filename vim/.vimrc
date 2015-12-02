@@ -16,7 +16,10 @@ match ExtraWhitespace /\s\+$/
 colorscheme desertEx
 
 set guifont=Sauce\ Code\ Powerline\ ExtraLight
+vertical res 101
 
 " Get NERDTree going
+let NERDTreeWinSize=26
+let NERDTreeShowHidden=1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
