@@ -1,5 +1,7 @@
+" get Pathogen going
 call pathogen#infect()
-autocmd bufreadpre GIT_COMMIT setlocal textwidth=70 colorcolumn=70
+
+" General stuff
 syntax on
 set et
 set number
@@ -15,14 +17,12 @@ match ExtraWhitespace /\s\+$/
 " Color schemes!
 colorscheme desertEx
 
-set guifont=Sauce\ Code\ Powerline\ ExtraLight
-vertical res 101
-
 " Get NERDTree going
 let NERDTreeWinSize=26
 let NERDTreeShowHidden=1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
+" Make NERDTree ignore some files
 let NERDTreeIgnore = ['\.swp$']
 let NERDTreeIgnore = ['\.pyc$']
