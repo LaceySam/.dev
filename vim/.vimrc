@@ -24,5 +24,4 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
 " Make NERDTree ignore some files
-let NERDTreeIgnore = ['\.swp$']
-let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = ['\.swp$', '\.pyc$']
