@@ -25,3 +25,6 @@ autocmd VimEnter * wincmd p
 
 " Make NERDTree ignore some files
 let NERDTreeIgnore = ['\.swp$', '\.pyc$']
+
+" Stop markdown annoying stuff
+let vim_markdown_folding_disabled=1
