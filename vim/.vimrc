@@ -29,3 +29,7 @@ let NERDTreeIgnore = ['\.swp$', '\.pyc$']
 
 " Stop markdown annoying stuff
 let vim_markdown_folding_disabled=1
+
+" Set up clipboard, only works if you've installed vim-gtk
+vnoremap <C-c> "+y
+vnoremap <C-v> "+p
