@@ -14,13 +14,13 @@ fi
 
 GO_VERSION=$2
 if [ -z $2 ]; then
-        GO_VERSION=1.5.1
+        GO_VERSION=1.5.3
         echo "No 2 arg supplied, assuming you want version: ${GO_VERSION}"
 fi
 
 ARCH="$(uname -p)"
 
-if [ "$ARCH" == "x86_64" ]; then
+if [ "$ARCH" = "x86_64" ]; then
         GOARCH="amd64"
 else
         GOARCH="386"
