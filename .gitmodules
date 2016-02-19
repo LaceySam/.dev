@@ -19,3 +19,9 @@
 [submodule "vim/.vim/bundle/vim-nerdtree-tabs"]
 	path = vim/.vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "vim-octave"]
+	path = vim-octave
+	url = https://github.com/jvirtanen/vim-octave.git
+[submodule "vim/.vim/bundle/vim-octave"]
+	path = vim/.vim/bundle/vim-octave
+	url = https://github.com/jvirtanen/vim-octave.git
