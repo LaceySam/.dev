@@ -25,3 +25,6 @@
 [submodule "vim/.vim/bundle/vim-javascript"]
 	path = vim/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/.vim/bundle/dockerfile"]
+	path = vim/.vim/bundle/dockerfile
+	url = https://github.com/honza/dockerfile.vim.git
