@@ -5,7 +5,7 @@ call pathogen#infect()
 syntax on
 set et
 set number
-set mouse=r
+set mouse=a
 set t_Co=256
 filetype plugin on
 
