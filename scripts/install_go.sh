@@ -14,7 +14,7 @@ fi
 
 GO_VERSION=$2
 if [ -z $2 ]; then
-        GO_VERSION=1.8.3
+        GO_VERSION=1.13.4
         echo "No 2 arg supplied, assuming you want version: ${GO_VERSION}"
 fi
 

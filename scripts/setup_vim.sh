@@ -1,5 +1,5 @@
-# The project should be set up in the home directory
-DEV_DIR=$HOME/.dev
+echo "\n\n\n"
+echo "Setting up Vim"
 
 # Setup vim symbolic links
 ln -s $DEV_DIR/vim/.vimrc $HOME/.
