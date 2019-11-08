@@ -1,5 +1,9 @@
-echo "\n\n\n"
-echo "Setting up Vim"
+printf "\n"
+printf "Setting up Vim"
+printf "\n"
+
+# The project should be set up in the home directory
+DEV_DIR=$HOME/.dev
 
 # Setup vim symbolic links
 ln -s $DEV_DIR/vim/.vimrc $HOME/.
