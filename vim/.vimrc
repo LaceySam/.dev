@@ -1,5 +1,26 @@
-" get Pathogen going
-call pathogen#infect()
+" Install vim plugin manager
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin()
+
+Plug 'rafi/awesome-vim-colorschemes'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'EdenEast/nightfox.nvim'
+Plug 'python-mode/python-mode', { 'for': 'python'}
+Plug 'honza/dockerfile.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'fatih/vim-go'
+Plug 'pangloss/vim-javascript'
+Plug 'plasticboy/vim-markdown'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'hashivim/vim-terraform'
+Plug 'terrastruct/d2-vim'
+
+call plug#end()
 
 " General stuff
 syntax on
@@ -9,13 +30,9 @@ set mouse=a
 set t_Co=256
 filetype plugin on
 
-" Highlight any whitespace with a big red bar!
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
-
 " Color schemes!
-colorscheme desertEx
+set background=dark
+colorscheme PaperColor
 
 " Get NERDTree going
 let NERDTreeWinSize=26
@@ -25,7 +42,7 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
 " Make NERDTree ignore some files
-let NERDTreeIgnore = ['\.swp$', '\.pyc$']
+let NERDTreeIgnore = ['\.swp$', '\.pyc$', '__pycache__']
 
 " Stop markdown annoying stuff
 let vim_markdown_folding_disabled=1

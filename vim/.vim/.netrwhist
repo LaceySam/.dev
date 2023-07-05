@@ -1,2 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/sam/code/cm/clearmacro.api.customer/.github/workflows'
+let g:netrw_dirhist_0='/home/sam/code/cm/clearmacro.api.forecast/clearmacro/api/forecast/routes'
+let g:netrw_dirhist_9='/home/sam/code/cm/clearmacro.forecast.universe/forecast_universe'
+let g:netrw_dirhist_8='/home/sam/code/cm/clearmacro.api.file/tests/bdd/test_server'
+let g:netrw_dirhist_7='/home/sam/code/cm/clearmacro.api.file/clearmacro/api/file/client'
+let g:netrw_dirhist_6='/home/sam/code/cm/clearmacro.signals.aggregators/aggregator/aggregators'
+let g:netrw_dirhist_5='/home/sam/code/cm/clearmacro.argo.workflows/deployment/overlays/dev'
+let g:netrw_dirhist_4='/home/sam/code/cm/clearmacro.argo.workflows/argo_workflows'
+let g:netrw_dirhist_3='/home/sam/code/cm/clearmacro.common.scripts/clearmacro_scripts/file'
+let g:netrw_dirhist_2='/home/sam/code/cm/clearmacro.api.reference/clearmacro/api/reference'
