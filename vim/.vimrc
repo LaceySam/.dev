@@ -32,7 +32,7 @@ filetype plugin on
 
 " Color schemes!
 set background=dark
-colorscheme PaperColor
+colorscheme carbonfox
 
 " Get NERDTree going
 let NERDTreeWinSize=26
