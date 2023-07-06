@@ -19,6 +19,8 @@ Plug 'plasticboy/vim-markdown'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'hashivim/vim-terraform'
 Plug 'terrastruct/d2-vim'
+Plug 'tpope/vim-fugitive'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
@@ -52,3 +54,4 @@ vnoremap <C-c> "+y
 vnoremap <C-v> "+p
 
 set term=xterm-256color
+set encoding=UTF-8
